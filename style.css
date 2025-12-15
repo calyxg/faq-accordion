@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+	interpolate-size: allow-keywords;
 	/* Spacing */
 	--spacing-100: 8px;
 	--spacing-200: 16px;
