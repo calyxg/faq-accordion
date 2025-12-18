@@ -44,7 +44,7 @@ Users should be able to:
 
 ### What I learned
 
-I learnt to use details and summary elements to build the accordion component and to add the name attribute to the details element in order to hide all other accordion items except the one that's currently open. This was necessary in order to implement a non-js solution. Adding progressive enhancements to the shadowDOM element allowed me to include transitions on open and close of the accordion which can be seen using browsers that currently support this functionality.
+I learnt to use details and summary elements to build the accordion component and used JS to close all other accordion items except the one that was currently active. Adding progressive enhancements to the shadowDOM element allowed me to include transitions on open and close of the accordion which can be seen using browsers that currently support this functionality.
 
 ### Useful resources
 
