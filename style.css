@@ -69,7 +69,8 @@ summary {
 }
 
 /* color on hover and active states */
-summary:hover {
+summary:hover,
+summary:active {
 	color: var(--colors-violet-600);
 }
 
