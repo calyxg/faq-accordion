@@ -67,6 +67,12 @@ summary {
 	justify-content: space-between;
 }
 
+/* color on hover and active states */
+summary:hover,
+summary:active {
+	color: var(--colors-violet-600);
+}
+
 summary::after {
 	content: url('./assets/images/icon-plus.svg');
 	padding-inline-start: var(--spacing-300);
