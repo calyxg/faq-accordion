@@ -65,10 +65,11 @@ summary {
 	list-style-type: none;
 	display: flex;
 	justify-content: space-between;
+	transition: color 0.3s ease;
 }
 
 /* color on hover and active states */
-details:hover summary {
+summary:hover {
 	color: var(--colors-violet-600);
 }
 
